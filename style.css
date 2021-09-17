@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
-
 html, body {
     margin: 0;
     padding: 0;
-    background-image: url(img/table.png);
+    background-image: url("img/table.png");
     font-family: "Exo 2", sans-serif;
     height: 100vh;
 }
@@ -16,10 +14,9 @@ body {
 }
 
 button {
-    background-color: #fff100;
+    background-color: #FFF100;
     cursor: pointer;
     border: none;
-
 }
 
 button#new-deck {
@@ -30,6 +27,7 @@ button#new-deck {
 button.draw {
     font-size: 1.2em;
     padding: 5px;
+    align-self: stretch;
 }
 
 div.card-slot {
