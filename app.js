@@ -50,9 +50,9 @@ function determineCardWinner(card1, card2) {
     const card2ValueIndex = valueOptions.indexOf(card2.value)
     
     if (card1ValueIndex > card2ValueIndex) {
-        return "Card 1 wins!"
+        return "Computer wins!"
     } else if (card1ValueIndex < card2ValueIndex) {
-        return "Card 2 wins!"
+        return "You win!"
     } else {
         return "War!"
     }
