@@ -50,8 +50,12 @@ function determineCardWinner(card1, card2) {
     const card2ValueIndex = valueOptions.indexOf(card2.value)
     
     if (card1ValueIndex > card2ValueIndex) {
+        computerScore++
+        computerScoreEl.textContent = `Computer score: ${computerScore}`
         return "Computer wins!"
     } else if (card1ValueIndex < card2ValueIndex) {
+        myScore++
+        myScoreEl.textContent = `My score: ${myScore}`
         return "You win!"
     } else {
         return "War!"
