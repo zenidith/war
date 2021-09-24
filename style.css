@@ -1,7 +1,9 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-image: url("img/table.png");
+    background-image: url("img/table1.jpeg");
+    background-repeat:no-repeat;
+    background-position: center center;
     font-family: "Exo 2", sans-serif;
     height: 100vh;
 }
